@@ -1,0 +1,20 @@
+{
+  "name": "LXC",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lxc_main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manoj Sharan",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.12.3",
+    "multer": "^0.1.8",
+    "redis": "^0.12.1",
+    "hashmap": "2.0.6",
+    "http": "0.0.0",
+    "http-proxy": "1.16.2",
+    "request": "^2.81.0"
+  }
+}
