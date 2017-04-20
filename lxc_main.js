@@ -1,4 +1,4 @@
-var http      = require('http');
+2var http      = require('http');
 var httpProxy = require('http-proxy');
 var exec = require('child_process').exec;
 var request = require("request");
@@ -10,12 +10,12 @@ var app = express()
 // REDIS
 var client = redis.createClient(6379, '127.0.0.1' , {})
 
-client.lpush('lxc', "10.0.4.11", function(err, reply){
-    console.log("Pushed 10.0.4.11 into Redis!")
+client.lpush('lxc', "10.0.3.12", function(err, reply){
+    console.log("Pushed 10.0.3.12 into Redis!")
   });
 
-client.lpush('lxc', "10.0.5.11", function(err, reply){
-    console.log("Pushed 10.0.5.11 into Redis!")
+client.lpush('lxc', "10.0.3.13", function(err, reply){
+    console.log("Pushed 10.0.3.13 into Redis!")
   });
 
 var port = 8080;

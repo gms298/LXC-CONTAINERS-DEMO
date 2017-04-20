@@ -13,10 +13,7 @@ var server = app.listen(8080, function () {
 })
 
 app.get('/', function(req, res) {
-
-	res.writeHead(200, {'content-type':'text/html'});
-		
-   	res.write("<h1>THIS IS CONTAINER 2!</h1>");
-   	res.end();
+	
+   console.log("THIS IS CONTAINER 2!");
 
 })

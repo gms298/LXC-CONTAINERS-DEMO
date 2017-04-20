@@ -24,7 +24,7 @@
 	
 	Now run the load balancer using `node lxc_main.js`. 
 
-3. SSH into LXC container 3 (10.0.4.11) and then,
+3. SSH into LXC container 3 (10.0.3.12) and then,
 
 	 Now install node, git & npm using this command,
 	
@@ -38,7 +38,7 @@
 	
 	Now run the simple server using `node lxc_container.js`. 
 
-4. SSH into LXC container 2 (10.0.5.11) and then,
+4. SSH into LXC container 2 (10.0.3.13) and then,
 
 	 Now install node, git & npm using this command,
 	
