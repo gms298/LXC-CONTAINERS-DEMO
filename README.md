@@ -1,4 +1,4 @@
-# CSC 519 - DevOps TechTalks - Linux Containers
+# CSC 519 - DevOps TechTalks - LXC Containers
 ## Developers
 
 Name  | Unity ID
