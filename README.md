@@ -258,9 +258,17 @@ sudo ifconfig ovsbr0 10.0.6.1 netmask 255.255.255.0
 	
 	`sudo apt-get install git`
 	
+	`sudo apt-get install redis-server`
+	
 	Then git clone this repository and run `npm install` to install all dependencies.
 	
-	Now run the simple server using `node lxc_container.js`. 
+	Next, open up a separate Terminal window and run the redis server using `redis-server`.
+	
+	Now run the simple server using `node lxc_container.js` on containers 2 and 3.
+	
+	Switch to container 1 and then run the proxy server using `node lxc_main.js`. 
+	
+	
 
 **Note**: You can change the predefined output (console.log statement) in `lxc_container.js` as needed, to differentiate between Containers 2 and 3.
 
