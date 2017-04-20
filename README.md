@@ -274,4 +274,4 @@ sudo ifconfig ovsbr0 10.0.6.1 netmask 255.255.255.0
 
 ## <a name="scr"></a> Screencast
 
-Please [click here](https://youtu.be/KKiphnZOw_8) to watch the screencast.
+Please [click here](https://youtu.be/J1P3R8D7SI0) to watch the screencast.
